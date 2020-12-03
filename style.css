@@ -1,0 +1,37 @@
+main{
+padding: 0;
+}
+header{
+position: sticky;
+top:0;
+padding:40px;
+background: lightblue;
+text-align: center;
+}
+
+content > div {
+height: 50px;
+}
+#container{
+  display: flex;
+  border: 1px solid #333;
+}
+
+#container section {
+  padding: 10px;
+}
+
+.aboutus{
+  background: #CCC;
+  width: 80%;
+}
+
+.tripinfo {
+  background: #DDD;
+  width: 20%;
+}
+img {
+  display: block;
+  margin-left: 300px;
+  margin-right: auto;
+}
